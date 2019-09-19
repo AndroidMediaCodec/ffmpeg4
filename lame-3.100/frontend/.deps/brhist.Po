@@ -1,0 +1,97 @@
+brhist.o: brhist.c ../config.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/stdio.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/cdefs.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/cdefs_elf.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/android/api-level.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/types.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/include/stddef.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/include/stdint.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/stdint.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/_types.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/machine/_types.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/_wchar_limits.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/linux/posix_types.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/linux/stddef.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/linux/compiler.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/include-fixed/asm/posix_types.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/features.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/asm/posix_types.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/asm/posix_types_32.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/asm/types.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/linux/types.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/machine/kernel.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/sysmacros.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/include/stdarg.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/stdlib.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/string.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/malloc.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/alloca.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/strings.h \
+ /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/memory.h \
+ brhist.h ../include/lame.h console.h
+
+../config.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/stdio.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/cdefs.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/cdefs_elf.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/android/api-level.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/types.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/include/stddef.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/include/stdint.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/stdint.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/_types.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/machine/_types.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/_wchar_limits.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/linux/posix_types.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/linux/stddef.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/linux/compiler.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/include-fixed/asm/posix_types.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/features.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/asm/posix_types.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/asm/posix_types_32.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/asm/types.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/linux/types.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/machine/kernel.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/sys/sysmacros.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/include/stdarg.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/stdlib.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/string.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/malloc.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/alloca.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/strings.h:
+
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-16/arch-x86/usr/include/memory.h:
+
+brhist.h:
+
+../include/lame.h:
+
+console.h:

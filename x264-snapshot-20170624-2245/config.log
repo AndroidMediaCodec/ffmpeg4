@@ -1,0 +1,70 @@
+checking for -Werror=unknown-warning-option... no
+Failed commandline was:
+--------------------------------------------------
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc conftest.c -march=armv8-a -Os -O3 -I/mnt/01D1ABAF100032D0/Tools/ffmpeg/n4.0-39-gda39990/build/arm64-v8a/include --sysroot=/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-21/arch-arm64/ -fPIE -fPIC -Wall -I. -I$(SRCPATH) --sysroot=/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-21/arch-arm64/  -Werror=unknown-warning-option  -L/mnt/01D1ABAF100032D0/Tools/ffmpeg/n4.0-39-gda39990/build/arm64-v8a/lib -fPIE -pie -fPIC  --sysroot=/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-21/arch-arm64/ -o conftest
+cc1: error: -Werror=unknown-warning-option: no option -Wunknown-warning-option
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+x264 configure script
+Command line options: "--cross-prefix=/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-" "--sysroot=/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-21/arch-arm64/" "--host=aarch64-linux-android" "--enable-pic" "--enable-static" "--disable-shared" "--disable-cli" "--disable-opencl" "--prefix=/mnt/01D1ABAF100032D0/Tools/ffmpeg/n4.0-39-gda39990/build/arm64-v8a"
+
+checking whether /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc works... yes
+checking whether /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc supports for( int i = 0; i < 9; i++ ); with -std=gnu99... yes
+checking whether /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc supports __asm__("cmeq v0.8h, v0.8h, #0");... yes
+checking whether /mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc supports .func test
+.endfunc... yes
+checking for pthread_create(0,0,0,0); in pthread.h... no
+Failed commandline was:
+--------------------------------------------------
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc conftest.c -march=armv8-a -Os -O3 -I/mnt/01D1ABAF100032D0/Tools/ffmpeg/n4.0-39-gda39990/build/arm64-v8a/include --sysroot=/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-21/arch-arm64/ -fPIE -fPIC -Wall -I. -I$(SRCPATH) --sysroot=/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-21/arch-arm64/ -std=gnu99 -D_GNU_SOURCE  -lpthread  -L/mnt/01D1ABAF100032D0/Tools/ffmpeg/n4.0-39-gda39990/build/arm64-v8a/lib -fPIE -pie -fPIC  --sysroot=/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/platforms/android-21/arch-arm64/ -lm -o conftest
+conftest.c: In function 'main':
+conftest.c:2:1: warning: null argument where non-null required (argument 1) [-Wnonnull]
+ int main (void) { pthread_create(0,0,0,0); return 0; }
+ ^
+conftest.c:2:1: warning: null argument where non-null required (argument 3) [-Wnonnull]
+/mnt/01D1ABAF100032D0/Tools/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld: cannot find -lpthread
+collect2: error: ld returned 1 exit status
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <pthread.h>
+int main (void) { pthread_create(0,0,0,0); return 0; }
+--------------------------------------------------
+checking for pthread_create(0,0,0,0); in pthread.h... yes
+checking for cpu_set_t p_aff; return CPU_COUNT(&p_aff); in sched.h... yes
+checking for return log2f(2); in math.h... yes
+checking whether defined(MAP_PRIVATE) is true... yes
+checking for uint32_t test_vec __attribute__ ((vector_size (16))) = {0,1,2,3}; in stdint.h... yes
+checking for stdio.h... yes
+checking for -fno-tree-vectorize... yes
+checking for fseeko(stdin,0,0); in stdio.h... yes
+checking for -Wshadow... yes
+checking for -Wmaybe-uninitialized... yes
+
+platform:      AARCH64
+byte order:    little-endian
+system:        LINUX
+cli:           no
+libx264:       internal
+shared:        no
+static:        yes
+asm:           yes
+interlaced:    yes
+avs:           no
+lavf:          no
+ffms:          no
+mp4:           no
+gpl:           yes
+thread:        posix
+opencl:        no
+filters:       crop select_every 
+lto:           no
+debug:         no
+gprof:         no
+strip:         no
+PIC:           yes
+bit depth:     8
+chroma format: all
